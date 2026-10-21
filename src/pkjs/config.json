@@ -1,0 +1,230 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "CFB Live"
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Favorite Team",
+        "size": 4
+      },
+      {
+        "type": "select",
+        "messageKey": "TEAM_IDX",
+        "label": "Team",
+        "defaultValue": 2,
+        "options": [
+          { "label": "Air Force (MWC)", "value": 0 },
+          { "label": "Akron (MAC)", "value": 1 },
+          { "label": "Alabama (SEC)", "value": 2 },
+          { "label": "App State (Sun Belt)", "value": 3 },
+          { "label": "Arizona (Big 12)", "value": 4 },
+          { "label": "Arizona State (Big 12)", "value": 5 },
+          { "label": "Arkansas (SEC)", "value": 6 },
+          { "label": "Arkansas State (Sun Belt)", "value": 7 },
+          { "label": "Army (AAC)", "value": 8 },
+          { "label": "Auburn (SEC)", "value": 9 },
+          { "label": "BYU (Big 12)", "value": 10 },
+          { "label": "Ball State (MAC)", "value": 11 },
+          { "label": "Baylor (Big 12)", "value": 12 },
+          { "label": "Boise State (Pac-12)", "value": 13 },
+          { "label": "Boston College (ACC)", "value": 14 },
+          { "label": "Bowling Green (MAC)", "value": 15 },
+          { "label": "Buffalo (MAC)", "value": 16 },
+          { "label": "California (ACC)", "value": 17 },
+          { "label": "Central Michigan (MAC)", "value": 18 },
+          { "label": "Charlotte (AAC)", "value": 19 },
+          { "label": "Cincinnati (Big 12)", "value": 20 },
+          { "label": "Clemson (ACC)", "value": 21 },
+          { "label": "Coastal Carolina (Sun Belt)", "value": 22 },
+          { "label": "Colorado (Big 12)", "value": 23 },
+          { "label": "Colorado State (Pac-12)", "value": 24 },
+          { "label": "Delaware (CUSA)", "value": 25 },
+          { "label": "Duke (ACC)", "value": 26 },
+          { "label": "East Carolina (AAC)", "value": 27 },
+          { "label": "Eastern Michigan (MAC)", "value": 28 },
+          { "label": "Florida (SEC)", "value": 29 },
+          { "label": "Florida Atlantic (AAC)", "value": 30 },
+          { "label": "Florida International (CUSA)", "value": 31 },
+          { "label": "Florida State (ACC)", "value": 32 },
+          { "label": "Fresno State (Pac-12)", "value": 33 },
+          { "label": "Georgia (SEC)", "value": 34 },
+          { "label": "Georgia Southern (Sun Belt)", "value": 35 },
+          { "label": "Georgia State (Sun Belt)", "value": 36 },
+          { "label": "Georgia Tech (ACC)", "value": 37 },
+          { "label": "Hawai'i (MWC)", "value": 38 },
+          { "label": "Houston (Big 12)", "value": 39 },
+          { "label": "Illinois (B1G)", "value": 40 },
+          { "label": "Indiana (B1G)", "value": 41 },
+          { "label": "Iowa (B1G)", "value": 42 },
+          { "label": "Iowa State (Big 12)", "value": 43 },
+          { "label": "Jacksonville State (CUSA)", "value": 44 },
+          { "label": "James Madison (Sun Belt)", "value": 45 },
+          { "label": "Kansas (Big 12)", "value": 46 },
+          { "label": "Kansas State (Big 12)", "value": 47 },
+          { "label": "Kennesaw State (CUSA)", "value": 48 },
+          { "label": "Kent State (MAC)", "value": 49 },
+          { "label": "Kentucky (SEC)", "value": 50 },
+          { "label": "LSU (SEC)", "value": 51 },
+          { "label": "Liberty (CUSA)", "value": 52 },
+          { "label": "Louisiana (Sun Belt)", "value": 53 },
+          { "label": "Louisiana Tech (Sun Belt)", "value": 54 },
+          { "label": "Louisville (ACC)", "value": 55 },
+          { "label": "Marshall (Sun Belt)", "value": 56 },
+          { "label": "Maryland (B1G)", "value": 57 },
+          { "label": "Massachusetts (MAC)", "value": 58 },
+          { "label": "Memphis (AAC)", "value": 59 },
+          { "label": "Miami (ACC)", "value": 60 },
+          { "label": "Miami (OH) (MAC)", "value": 61 },
+          { "label": "Michigan (B1G)", "value": 62 },
+          { "label": "Michigan State (B1G)", "value": 63 },
+          { "label": "Middle Tennessee (CUSA)", "value": 64 },
+          { "label": "Minnesota (B1G)", "value": 65 },
+          { "label": "Mississippi State (SEC)", "value": 66 },
+          { "label": "Missouri (SEC)", "value": 67 },
+          { "label": "Missouri State (CUSA)", "value": 68 },
+          { "label": "NC State (ACC)", "value": 69 },
+          { "label": "Navy (AAC)", "value": 70 },
+          { "label": "Nebraska (B1G)", "value": 71 },
+          { "label": "Nevada (MWC)", "value": 72 },
+          { "label": "New Mexico (MWC)", "value": 73 },
+          { "label": "New Mexico State (CUSA)", "value": 74 },
+          { "label": "North Carolina (ACC)", "value": 75 },
+          { "label": "North Dakota State (MWC)", "value": 76 },
+          { "label": "North Texas (AAC)", "value": 77 },
+          { "label": "Northern Illinois (MWC)", "value": 78 },
+          { "label": "Northwestern (B1G)", "value": 79 },
+          { "label": "Notre Dame (Ind)", "value": 80 },
+          { "label": "Ohio (MAC)", "value": 81 },
+          { "label": "Ohio State (B1G)", "value": 82 },
+          { "label": "Oklahoma (SEC)", "value": 83 },
+          { "label": "Oklahoma State (Big 12)", "value": 84 },
+          { "label": "Old Dominion (Sun Belt)", "value": 85 },
+          { "label": "Ole Miss (SEC)", "value": 86 },
+          { "label": "Oregon (B1G)", "value": 87 },
+          { "label": "Oregon State (Pac-12)", "value": 88 },
+          { "label": "Penn State (B1G)", "value": 89 },
+          { "label": "Pittsburgh (ACC)", "value": 90 },
+          { "label": "Purdue (B1G)", "value": 91 },
+          { "label": "Rice (AAC)", "value": 92 },
+          { "label": "Rutgers (B1G)", "value": 93 },
+          { "label": "SMU (ACC)", "value": 94 },
+          { "label": "Sacramento State (MAC)", "value": 95 },
+          { "label": "Sam Houston (CUSA)", "value": 96 },
+          { "label": "San Diego State (Pac-12)", "value": 97 },
+          { "label": "San Jos\u00e9 State (MWC)", "value": 98 },
+          { "label": "South Alabama (Sun Belt)", "value": 99 },
+          { "label": "South Carolina (SEC)", "value": 100 },
+          { "label": "South Florida (AAC)", "value": 101 },
+          { "label": "Southern Miss (Sun Belt)", "value": 102 },
+          { "label": "Stanford (ACC)", "value": 103 },
+          { "label": "Syracuse (ACC)", "value": 104 },
+          { "label": "TCU (Big 12)", "value": 105 },
+          { "label": "Temple (AAC)", "value": 106 },
+          { "label": "Tennessee (SEC)", "value": 107 },
+          { "label": "Texas (SEC)", "value": 108 },
+          { "label": "Texas A&M (SEC)", "value": 109 },
+          { "label": "Texas State (Pac-12)", "value": 110 },
+          { "label": "Texas Tech (Big 12)", "value": 111 },
+          { "label": "Toledo (MAC)", "value": 112 },
+          { "label": "Troy (Sun Belt)", "value": 113 },
+          { "label": "Tulane (AAC)", "value": 114 },
+          { "label": "Tulsa (AAC)", "value": 115 },
+          { "label": "UAB (AAC)", "value": 116 },
+          { "label": "UCF (Big 12)", "value": 117 },
+          { "label": "UCLA (B1G)", "value": 118 },
+          { "label": "UConn (Ind)", "value": 119 },
+          { "label": "UL Monroe (Sun Belt)", "value": 120 },
+          { "label": "UNLV (MWC)", "value": 121 },
+          { "label": "USC (B1G)", "value": 122 },
+          { "label": "UTEP (MWC)", "value": 123 },
+          { "label": "UTSA (AAC)", "value": 124 },
+          { "label": "Utah (Big 12)", "value": 125 },
+          { "label": "Utah State (Pac-12)", "value": 126 },
+          { "label": "Vanderbilt (SEC)", "value": 127 },
+          { "label": "Virginia (ACC)", "value": 128 },
+          { "label": "Virginia Tech (ACC)", "value": 129 },
+          { "label": "Wake Forest (ACC)", "value": 130 },
+          { "label": "Washington (B1G)", "value": 131 },
+          { "label": "Washington State (Pac-12)", "value": 132 },
+          { "label": "West Virginia (Big 12)", "value": 133 },
+          { "label": "Western Kentucky (CUSA)", "value": 134 },
+          { "label": "Western Michigan (MAC)", "value": 135 },
+          { "label": "Wisconsin (B1G)", "value": 136 },
+          { "label": "Wyoming (MWC)", "value": 137 }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Notifications",
+        "size": 4
+      },
+      {
+        "type": "toggle",
+        "messageKey": "VIBRATE",
+        "label": "Vibrate on Score",
+        "description": "1 short buzz for a field goal or safety, 3 short buzzes for a touchdown. No buzz for PATs or 2-point tries.",
+        "defaultValue": true
+      },
+      {
+        "type": "toggle",
+        "messageKey": "BATTERY_BAR",
+        "label": "Battery Bar",
+        "description": "Show battery level at bottom of screen",
+        "defaultValue": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Display",
+        "size": 4
+      },
+      {
+        "type": "select",
+        "messageKey": "TICKER_SPEED",
+        "label": "Ticker Speed",
+        "description": "How long each Top 25 game shows before cycling",
+        "defaultValue": 5000,
+        "options": [
+          { "label": "5 seconds (default)", "value": 5000  },
+          { "label": "10 seconds",          "value": 10000 },
+          { "label": "30 seconds",          "value": 30000 },
+          { "label": "60 seconds",          "value": 60000 }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Top 25",
+        "size": 4
+      },
+      {
+        "type": "toggle",
+        "messageKey": "TOP25_AUTO",
+        "label": "Auto-Show Top 25 Games",
+        "description": "When your team isn't playing (or kicking off within 2 hours), switch to the highest-ranked Top 25 game that's live right now",
+        "defaultValue": true
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save Settings"
+  }
+]

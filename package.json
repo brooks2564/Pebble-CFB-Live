@@ -1,0 +1,97 @@
+{
+  "name": "CFB Live",
+  "author": "Brooman Inks",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "github:brooks2564/pebble-clay-flint"
+  },
+  "pebble": {
+    "displayName": "College Football Live Scores",
+    "shortName": "CFB Live",
+    "longName": "College Football Live Scores",
+    "uuid": "c7acddd7-29e9-438b-9097-26d9e63ff5a6",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "diorite",
+      "emery",
+      "flint"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "messageKeys": {
+      "AWAY_ABBR": 1,
+      "HOME_ABBR": 2,
+      "AWAY_SCORE": 3,
+      "HOME_SCORE": 4,
+      "QUARTER": 5,
+      "CLOCK": 6,
+      "DOWN": 7,
+      "DISTANCE": 8,
+      "FIELD_POS": 9,
+      "REDZONE": 10,
+      "POSSESSION": 11,
+      "STATUS": 12,
+      "TEAM_IDX": 13,
+      "START_TIME": 14,
+      "AWAY_RECORD": 15,
+      "HOME_RECORD": 16,
+      "VIBRATE": 17,
+      "LAST_PLAY": 18,
+      "NEXT_GAME": 19,
+      "BATTERY_BAR": 20,
+      "TICKER": 21,
+      "DOWN_TEXT": 22,
+      "SCORE_EVENT": 23,
+      "NETWORK": 24,
+      "FEATURED_TAG": 25,
+      "TICKER_SPEED": 27,
+      "AWAY_STATS": 28,
+      "HOME_STATS": 29,
+      "AWAY_TURNOVERS": 30,
+      "HOME_TURNOVERS": 31,
+      "AWAY_COLOR": 32,
+      "HOME_COLOR": 33,
+      "TOP25_AUTO": 34
+    },
+    "resources": {
+      "media": [
+        {
+          "menuIcon": true,
+          "type": "png",
+          "name": "MENU_ICON",
+          "file": "images/menu_icon.png"
+        },
+        {
+          "type": "png",
+          "name": "FOOTBALL_EM",
+          "file": "images/FOOTBALL_EM.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "png",
+          "name": "FOOTBALL_BA",
+          "file": "images/FOOTBALL_BA.png",
+          "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite",
+            "flint"
+          ]
+        }
+      ]
+    }
+  }
+}
